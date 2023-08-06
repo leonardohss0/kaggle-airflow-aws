@@ -47,18 +47,24 @@ Configure the Airflow DAGs and connections based on your specific requirements. 
 5. Monitor the progress of the DAG and check the extracted data files in the configured S3 bucket. You can also view the transformed Parquet files and check the stored records in the RDS database.
 
 ## Materials
-### Athena report
-![Athena](athena-report.jpg)
+### Analysing the data in the Datalake with AWS Athena
+![Athena](assets/athena-report.jpg)
 
-### S3 structure
+### Datalake structure in AWS S3
 bucket/
+
 ├── schema/
+
     ├── YYYY/
+
         ├── MM/
+
             ├── DD/
+
                 ├── file.csv
 
-![S3](s3-partition.jpg)
+
+![S3](assets/s3-partition.jpg)
 
 ## Contributing
 Contributions are welcome! If you find any issues or have suggestions for improvements, please feel free to open an issue or submit a pull request.
