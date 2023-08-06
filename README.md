@@ -1,5 +1,5 @@
 # Kaggle Data Extraction with Airflow
-### This project demonstrates how to use Apache Airflow to automate the process of extracting data from Kaggle. It provides a robust and scalable solution for retrieving dataset files, partitioning the data, and storing it in both an S3 bucket and a PostgreSQL database.
+ This project demonstrates how to use Apache Airflow to automate the process of extracting data from Kaggle. It provides a robust and scalable solution for retrieving dataset files, partitioning the data, and storing it in both an S3 bucket and a PostgreSQL database.
 
 Keywords: Airflow, Python, AWS RDS, AWS S3, Postgres Database, Data lake, Kaggle, API, Docker
 
