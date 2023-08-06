@@ -51,18 +51,7 @@ Configure the Airflow DAGs and connections based on your specific requirements. 
 ![Athena](assets/athena-report.jpg)
 
 ### Datalake structure in AWS S3
-bucket/
-
-├── schema/
-
-    ├── YYYY/
-
-        ├── MM/
-
-            ├── DD/
-
-                ├── file.csv
-
+bucket/ schema/ YYYY/ MM/ DD/ file.csv
 
 ![S3](assets/s3-partition.jpg)
 
